@@ -92,6 +92,24 @@ conda activate AI-drug-design
 
 
 
+
+
+## 来源的出处
+
+- 跟我我的论文里面的内容，进行书写
+
+![image-20240909162054778](img/image-20240909162054778.png)
+
+![image-20240909162416509](img/image-20240909162416509.png)
+
+![image-20240909162431911](img/image-20240909162431911.png)
+
+![image-20240909162446456](img/image-20240909162446456.png)
+
+
+
+
+
 ## 参考文献
 
 [1] Visan, A. I., & Negut, I. (2024). Integrating Artificial Intelligence for Drug Discovery in the Context of Revolutionizing Drug Delivery. *Life*, *14*(2), 233. https://www.mdpi.com/2075-1729/14/2/233 
