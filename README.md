@@ -86,6 +86,10 @@ conda env list
 conda activate AI-drug-design
 ```
 
+### software
+
+- https://www.jetbrains.com/pycharm/
+
 
 
 ## 文章所用到的 ***Python*** 语法
@@ -105,6 +109,8 @@ conda activate AI-drug-design
 ![image-20240909162431911](img/image-20240909162431911.png)
 
 ![image-20240909162446456](img/image-20240909162446456.png)
+
+
 
 
 
