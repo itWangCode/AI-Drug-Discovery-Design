@@ -64,6 +64,10 @@
 
 ## 配置代码环境
 
+
+
+---------------------------------------------------⚠️如果你是大佬，直接看下面的这一步 beginning------------------------
+
 ### first 
 
 ❤️ u must need  read paper ⚠️:
@@ -92,9 +96,146 @@ conda activate AI-drug-design
 
 
 
-### 接下来 ，是更佳详细的说明教程：
+---------------------------------------------------⚠️如果你是大佬，直接看下面的这一步 end------------------------
 
-### 如何在 Windows 和 macOS 系统上下载和安装 Anaconda-Navigator 并配置你的环境
+
+
+
+
+
+
+### ❤️如果你是小白的话，请您谦虚的看着下面的步骤：
+
+### 一、Windows 和 macOS 系统上安装和配置 Git，并拉取我的代码到本地。
+
+接下来，我将一步步为你讲解如何在 Windows 和 macOS 系统上安装和配置 Git，并拉取我的代码到本地。
+
+### Windows 系统
+
+#### 1. 下载并安装 Git
+
+- 前往 [Git 官方下载页面](https://git-scm.com/)。
+- 选择 Windows 版本进行下载，并按照提示完成安装。
+  - 安装时，默认选项即可。如果想要自定义，可以根据需要选择不同的配置，比如编辑器、环境变量等。
+
+#### 2. 配置 Git
+
+安装完成后，打开终端（或 Git Bash）并配置你的 Git 用户信息：
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
+
+这样，Git 就会在你每次提交代码时使用这些信息来标识你的身份。
+
+#### 3. 生成 SSH 密钥
+
+在 Windows 上，打开 Git Bash，输入以下命令生成 SSH 密钥：
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+```
+
+- 按回车后，你会看到提示选择存储密钥的位置，默认按回车即可。
+- 然后你需要设置一个密码，可以为空，但建议设置。
+
+#### 4. 添加 SSH 密钥到 GitHub
+
+- 使用以下命令显示你生成的公钥：
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+- 复制公钥并登录 GitHub。
+- 前往 GitHub 的 [SSH 和 GPG 密钥页面](https://github.com/settings/keys)，点击 **New SSH key**。
+- 将你刚才复制的公钥粘贴到文本框中，添加后保存。
+
+#### 5. 克隆 GitHub 仓库
+
+完成 SSH 密钥配置后，你可以使用以下命令克隆代码仓库：
+
+```bash
+git clone git@github.com:itWangCode/AI-drug-design.git
+```
+
+#### 6. 成功拉取代码
+
+运行命令后，Git 会将代码拉取到本地的文件夹中。如果成功，你将看到类似如下的信息：
+
+```bash
+Cloning into 'AI-drug-design'...
+```
+
+这时，代码已经拉取成功。
+
+---
+
+### macOS 系统
+
+#### 1. 安装 Git
+
+macOS 上通常已经自带 Git，如果没有，可以通过 Homebrew 安装 Git：
+
+- 打开终端，输入以下命令安装 Homebrew（如果没有安装）：
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+- 安装完成后，输入以下命令安装 Git：
+
+```bash
+brew install git
+```
+
+#### 2. 配置 Git
+
+- 打开终端，输入以下命令配置 Git：
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
+
+#### 3. 生成 SSH 密钥
+
+- 在终端中输入以下命令生成 SSH 密钥：
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+```
+
+- 跟 Windows 一样，按回车使用默认路径存储密钥，设置密码（可选）。
+
+#### 4. 添加 SSH 密钥到 GitHub
+
+- 在终端中使用以下命令查看公钥：
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+- 复制输出的公钥，登录 GitHub，将公钥添加到 [GitHub SSH Keys](https://github.com/settings/keys) 页面。
+
+#### 5. 克隆 GitHub 仓库
+
+使用以下命令克隆你的仓库到本地：
+
+```bash
+git clone git@github.com:itWangCode/AI-drug-design.git
+```
+
+#### 6. 成功拉取代码
+
+Git 会将代码下载到当前目录，表示代码拉取成功。
+
+这样，你就成功配置了 Git 并克隆了代码仓库。
+
+
+
+### 二、如何在 Windows 和 macOS 系统上下载和安装 Anaconda-Navigator 并配置你的环境
 
 #### 1. 下载 Anaconda-Navigator
 
@@ -172,9 +313,7 @@ conda activate AI-drug-design
 
 你现在已成功配置并激活了 `AI-drug-design` 环境，可以开始使用该环境进行开发了。
 
-
-
-### software
+###  三、software
 
 - https://www.jetbrains.com/pycharm/
 
@@ -279,120 +418,6 @@ conda activate AI-drug-design
 
 
 
-
-### Windows 和 macOS 系统上安装和配置 Git，并拉取我的代码到本地。
-
-接下来，我将一步步为你讲解如何在 Windows 和 macOS 系统上安装和配置 Git，并拉取我的代码到本地。
-
-### Windows 系统
-
-#### 1. 下载并安装 Git
-- 前往 [Git 官方下载页面](https://git-scm.com/)。
-- 选择 Windows 版本进行下载，并按照提示完成安装。
-  - 安装时，默认选项即可。如果想要自定义，可以根据需要选择不同的配置，比如编辑器、环境变量等。
-
-#### 2. 配置 Git
-安装完成后，打开终端（或 Git Bash）并配置你的 Git 用户信息：
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"
-```
-
-这样，Git 就会在你每次提交代码时使用这些信息来标识你的身份。
-
-#### 3. 生成 SSH 密钥
-在 Windows 上，打开 Git Bash，输入以下命令生成 SSH 密钥：
-
-```bash
-ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
-```
-
-- 按回车后，你会看到提示选择存储密钥的位置，默认按回车即可。
-- 然后你需要设置一个密码，可以为空，但建议设置。
-
-#### 4. 添加 SSH 密钥到 GitHub
-- 使用以下命令显示你生成的公钥：
-
-```bash
-cat ~/.ssh/id_rsa.pub
-```
-
-- 复制公钥并登录 GitHub。
-- 前往 GitHub 的 [SSH 和 GPG 密钥页面](https://github.com/settings/keys)，点击 **New SSH key**。
-- 将你刚才复制的公钥粘贴到文本框中，添加后保存。
-
-#### 5. 克隆 GitHub 仓库
-完成 SSH 密钥配置后，你可以使用以下命令克隆代码仓库：
-
-```bash
-git clone git@github.com:itWangCode/AI-drug-design.git
-```
-
-#### 6. 成功拉取代码
-运行命令后，Git 会将代码拉取到本地的文件夹中。如果成功，你将看到类似如下的信息：
-
-```bash
-Cloning into 'AI-drug-design'...
-```
-
-这时，代码已经拉取成功。
-
----
-
-### macOS 系统
-
-#### 1. 安装 Git
-macOS 上通常已经自带 Git，如果没有，可以通过 Homebrew 安装 Git：
-- 打开终端，输入以下命令安装 Homebrew（如果没有安装）：
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-- 安装完成后，输入以下命令安装 Git：
-
-```bash
-brew install git
-```
-
-#### 2. 配置 Git
-- 打开终端，输入以下命令配置 Git：
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"
-```
-
-#### 3. 生成 SSH 密钥
-- 在终端中输入以下命令生成 SSH 密钥：
-
-```bash
-ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
-```
-
-- 跟 Windows 一样，按回车使用默认路径存储密钥，设置密码（可选）。
-
-#### 4. 添加 SSH 密钥到 GitHub
-- 在终端中使用以下命令查看公钥：
-
-```bash
-cat ~/.ssh/id_rsa.pub
-```
-
-- 复制输出的公钥，登录 GitHub，将公钥添加到 [GitHub SSH Keys](https://github.com/settings/keys) 页面。
-
-#### 5. 克隆 GitHub 仓库
-使用以下命令克隆你的仓库到本地：
-
-```bash
-git clone git@github.com:itWangCode/AI-drug-design.git
-```
-
-#### 6. 成功拉取代码
-Git 会将代码下载到当前目录，表示代码拉取成功。
-
-这样，你就成功配置了 Git 并克隆了代码仓库。
 
 
 
