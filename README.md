@@ -80,6 +80,18 @@ u first git clone my link!!!, it is have AI-drug-design.yml.
 conda env create -f AI-drug-design.yml
 ```
 
+如果你在国内，请您打开 AI-drug-design.yml
+
+删除：
+
+```bash
+  - pytorch
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+```
+
+
+
 ### second
 
 ```bash
