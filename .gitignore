@@ -1,11 +1,34 @@
-# 忽略所有.log文件
-*.log
-# 忽略所有编译生成的.o文件
-*.o
-# 忽略名为temp的目录及其所有内容
-temp/
-# 忽略docs目录下的所有.md文件
-docs/*.md
-# 忽略所有子目录下的.txt文件
-**/*.txt
+.DS_Store
+node_modules
+.vscode
+.idea
+
+**/.DS_Store
+
+[core]
+    excludesfile =/Users/wangyang/.gitignore_global
+
+
+# 忽略所有 .idea 文件
+*.idea
+
 *.
+ 
+# 忽略特定文件
+config.env
+ 
+# 忽略整个目录
+node_modules/
+ 
+# 忽略目录下除某文件外的所有文件
+!/some_directory/important_file.txt
+ 
+# 忽略所有 .pdf 文件，除了 readme.pdf
+*. DS_Store
+!readme.pdf
+ 
+# 忽略所有在 build/ 目录下的 .txt 文件
+build/*.txt
+ 
+# 忽略所有在 doc/ 任意子目录下的 .md 文件
+doc/**/*.md

@@ -21,42 +21,46 @@
 
 ## 目录
 
-- 01_Compound data acquisition (ChEMBL)
-- 02_Molecular filtering: ADME and lead-likeness criteria
-- 03_Molecular filtering: unwanted substructures
-- 04_Ligand-based screening: compound similarity
-- 05_Compound clustering
-- 06_Maximum common substructure
-- 07_Ligand-based screening: machine learning
-- 08_Protein data acquisition: Protein Data Bank (PDB)
-- 09_Ligand-based pharmacophores
-- 10_Binding site similarity and off-target prediction
-- 11_Querying online API webservices
-- 12_Data acquisition from KLIFS
-- 13_Data acquisition from PubChem
-- 14_Binding site detection
-- 15_Protein ligand docking
-- 16_Protein-ligand interactions
-- 17_Advanced NGLview usage
-- 18_Automated pipeline for lead optimization
-- 19_Molecular dynamics simulation
-- 20_Analyzing molecular dynamics simulations
-- 21_One-Hot Encoding
-- 22_Ligand-based screening: neural networks
-- 23_What is a kinase?
-- 24_Kinase similarity: Sequence
-- 25_Kinase similarity: Kinase pocket (KiSSim fingerprint)
-- 26_Kinase similarity: Interaction fingerprints
-- 27_Kinase similarity: Ligand profile
-- 28_Kinase similarity: Compare different perspectives
-- 33_Molecular representations
-- 34_RNN-based molecular property prediction
-- 35_GNN-based molecular property prediction
-- 36_An introduction to E(3)-invariant graph neural networks
-- 37_Uncertainty estimation
-- 38_Protein Ligand Interaction Prediction
+- 01_化合物数据采集（ChEMBL）
+- 02_分子过滤：ADME和先导化合物相似标准
+- 03_分子过滤：不需要的子结构
+- 04_基于配体的筛选：化合物相似性
+-  05_复合聚类
+- 06_最大公共子结构
+- 07_基于配体的筛选：机器学习
+- 08_蛋白质数据获取：蛋白质数据库（PDB）
+- 09_基于配体的药效团
+- 10_结合位点相似性和脱靶预测
+- 11_查询在线API网络服务
+- 12_从KLIFS获取数据
+- 13_从 PubChem 获取数据
+- 14_结合位点检测
+- 15_蛋白质配体对接
+- 16_蛋白质-配体相互作用
+- 17_NGLview高级使用
+- 18_先导化合物优化的自动化流程
+- 19_分子动力学模拟
+- 20_分析分子动力学模拟
+- 21_One-Hot 编码
+- 22_基于配体的筛选：神经网络
+- 23_什么是激酶？
+- 24_激酶相似性：序列
+- 25_激酶相似性：激酶口袋（KiSSim 指纹）
+- 26_激酶相似性：相互作用指纹
+- 27_激酶相似性：配体概况
+- 28_激酶相似性：比较不同的观点
+- 29_分子表示
+- 30_基于RNN的分子性质预测
+- 31_基于GNN的分子性质预测
+- 32_E(3)-不变图神经网络简介
+- 33_不确定性估计
+- 34_蛋白质配体相互作用预测
 
 
+
+## 项目结构
+
+![image-20240911233110779](img/image-20240911233110779.png)
 
 ## 配置代码环境
 
