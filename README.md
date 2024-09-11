@@ -25,7 +25,7 @@
 - 02_分子过滤：ADME和先导化合物相似标准
 - 03_分子过滤：不需要的子结构
 - 04_基于配体的筛选：化合物相似性
--  05_复合聚类
+- 05_复合聚类
 - 06_最大公共子结构
 - 07_基于配体的筛选：机器学习
 - 08_蛋白质数据获取：蛋白质数据库（PDB）
@@ -80,7 +80,7 @@ u first git clone my link!!!, it is have AI-drug-design.yml.
 conda env create -f AI-drug-design.yml
 ```
 
-如果你在国内，请您打开 AI-drug-design.yml
+如果你在国外或者有🪜，请您打开 AI-drug-design.yml
 
 删除：
 
