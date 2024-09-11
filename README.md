@@ -1,5 +1,12 @@
 # AI-drug-design
-我来简单的介绍一下吧，我这一块的是做什么的，我来用中文给大家讲解一下，方便大家语言能力不行的同学们，提供更好的支持，其实我应该是写英语的。但是为了方便 的大家能理解，能直接上手入门，我还是给大家提供中文吧！！
+
+## 人工智能辅助药物发现与设计
+
+## Artificial intelligence-assisted drug discovery and design
+
+## Artificial Intelligence Drug Design
+
+我来简单的介绍一下吧，我这一块的是做什么的（人工智能辅助药物发现与设计），我来用中文给大家讲解一下，方便大家语言能力不行的同学们，提供更好的支持，其实我应该是写英语的。但是为了方便 的大家能理解，能直接上手入门，我还是给大家提供中文吧！！
 
 ##  致谢 
 
@@ -68,7 +75,7 @@
 |-- Al-drug-design-reference.enl    <- 参考文献文件
 |-- list                            <- 项目结构目录
 |-- Al-drug-design.yml                             <- 环境配置
-|   |-- 00_ai in_medicine                          <- Python基础知识
+|   |-- 00_ai in_medicine                          <- Python基础知识（❤️如果你有Python基础，或者你有Python与药物设计基础，你可以跳过这一章节，直接从01开始看）
 |   |-- 01_Compound_data_acquisition               <- 化合物采集
 ```
 
@@ -667,7 +674,7 @@ conda activate AI-drug-design
 
 
 
-## 能否支持我喝一杯咖啡，谢谢！！让我更有动力，写作！！！
+## ☕️☕️☕️能否支持我喝一杯咖啡☕️☕️☕️☕️☕️，谢谢！！让我更有动力，写作💪🏻！！！
 
 ![image-20240909162446456](img/qqpay.png)
 
