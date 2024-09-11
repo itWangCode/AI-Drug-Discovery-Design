@@ -11,7 +11,7 @@
 
 ## 前言
 
-请您参考[https://www.mdpi.com/2075-1729/14/2/233]，这一篇论文[1]。我这里就不讲了。
+请您参考 [https://www.mdpi.com/2075-1729/14/2/233]  ，这一篇论文[1]。我这里就不讲了。
 
 
 
@@ -60,15 +60,19 @@
 
 ## 项目结构
 
+```
 |-- Al-drug-design-reference.Data   <- 参考文献文件夹
-|-- README.md   <- 详细简介
-|-- img    <- md的图片
-|-- docs   <- 文档
-|-- Al-drug-design-reference.enl   <-  参考文献文件
-|-- list   <-  项目结构目录
-|-- Al-drug-design.yml  <-  环境配置
-|   |-- 00_ai in_medicine                         <- Python基础知识
+|-- README.md                       <- 详细简介
+|-- img                             <- md的图片
+|-- docs                            <- 文档
+|-- Al-drug-design-reference.enl    <- 参考文献文件
+|-- list                            <- 项目结构目录
+|-- Al-drug-design.yml                             <- 环境配置
+|   |-- 00_ai in_medicine                          <- Python基础知识
 |   |-- 01_Compound_data_acquisition               <- 化合物采集
+```
+
+
 
 ## 配置代码环境
 
@@ -123,6 +127,18 @@ conda activate AI-drug-design
 
 
 
+
+# ⚠️⚠️⚠️⚠️⚠️注意注意：有些同学好像是报错失败🚴🏻🚴🏻🚴🏻🚴🏻🚴🏻🚴🏻🚴🏻🚴🏻🚴🏻🚴🏻
+
+
+
+```
+那么请您使用根目录的 ***AI-drug-design_dev.yml***
+```
+
+```
+conda env create -f AI-drug-design_dev.yml
+```
 
 
 
@@ -456,47 +472,77 @@ conda activate AI-drug-design
 ### 目录
 
 1. **Python 基础**
+   
+    ```
     1.1 Python 环境配置（Anaconda、虚拟环境、Jupyter Notebook）
     1.2 Python 基础语法（变量、数据类型、运算符）
     1.3 控制结构（条件语句、循环）
     1.4 函数与模块（自定义函数、导入库）
     1.5 文件操作（读取和写入文件）
     1.6 异常处理
-
+    ```
+    
+    
+    
 2. **数据处理与分析**
+   
+    ```
     2.1 Numpy 数组操作
     2.2 Pandas 数据框操作
     2.3 数据清洗与处理
     2.4 数据可视化（Matplotlib、Seaborn）
     2.5 基础统计与数据分析方法
-
+    ```
+    
+    
+    
 3. **科学计算与机器学习基础**
+   
+    ```
     3.1 Scikit-learn 入门
     3.2 常用算法（线性回归、分类、聚类、决策树等）
     3.3 模型评估与优化
     3.4 模型调参与交叉验证
-
+    ```
+    
+    
+    
 4. **深度学习框架**
+   
+    ```
     4.1 TensorFlow 基础
     4.2 Keras 快速上手
     4.3 PyTorch 基础
     4.4 GPU 加速与优化
     4.5 神经网络的构建与训练
-
+    ```
+    
+    
+    
 5. **AI 药物设计基础**
+   
+    ```
     5.1 药物设计相关的 Python 库介绍
     5.2 RDKit（化学信息学工具）入门与使用
     5.3 Mol2Vec 分子特征表示方法
     5.4 化合物的预处理与分子特征提取
     5.5 分子对接与虚拟筛选
     5.6 药物活性预测模型
-
+    ```
+    
+    
+    
 6. **高级主题**
+   
+    ```
     6.1 深度学习在药物设计中的应用
     6.2 分子生成模型（GAN、VAE）
     6.3 分子动力学模拟简介
     6.4 蛋白质结构预测与分子对接
     6.5 AI 在药物筛选和优化中的应用
+    ```
+    
+    
 
 ---
 
