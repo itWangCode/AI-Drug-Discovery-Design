@@ -120,6 +120,8 @@ conda activate AI-drug-design
 
 ### 一、Windows 和 macOS 系统上安装和配置 Git，并拉取我的代码到本地。
 
+如果你想要了解 更多的Git的知识，请您前往[如果操作git流程.md]
+
 接下来，我将一步步为你讲解如何在 Windows 和 macOS 系统上安装和配置 Git，并拉取我的代码到本地。
 
 ### Windows 系统
