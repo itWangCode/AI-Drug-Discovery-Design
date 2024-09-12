@@ -331,6 +331,8 @@ cd AI-drug-design
 conda env create -f AIDrugDesign.yml
 ```
 
+❤️请您耐心等待15分钟以上，请您连接       ***wifi***        !!!!!!!
+
 3. Conda 将自动根据 `.yml` 文件安装所需的依赖包并创建环境。
 
 #### 5. 列出 Conda 环境
@@ -359,6 +361,14 @@ conda activate AI-drug-design
 ```
 
 你现在已成功配置并激活了 `AI-drug-design` 环境，可以开始使用该环境进行开发了。
+
+## 安装好所有的配置
+
+### 运行
+
+![15c1411d3a43c97a1c005f046e0ce81b](img/1.png)
+
+![15c1411d3a43c97a1c005f046e0ce81b](img/2.png)
 
 ###  三、software
 
@@ -664,7 +674,15 @@ conda activate AI-drug-design
 
 ![image-20240909162446456](img/image-20240909162446456.png)
 
+## QS问题区
 
+### 1. 比如说你会遇见这样子的情况？
+
+![b14a3384a9f0fe8905246c5c13e9eb15](img/b14a3384a9f0fe8905246c5c13e9eb15.png)
+
+- 然后我们如何解决，那么就去win高级环境变量中去配置？
+
+  ![15c1411d3a43c97a1c005f046e0ce81b](img/15c1411d3a43c97a1c005f046e0ce81b.png)
 
 
 
