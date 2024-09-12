@@ -93,15 +93,15 @@
 
 ❤️ u must need  read paper ⚠️:
 
-Where r u ***AI-drug-design.yml*** ?
+Where r u ***AlDrugDesign.yml*** ?
 
-u first git clone my link!!!, it is have AI-drug-design.yml.
+u first git clone my link!!!, it is have AlDrugDesign.yml.
 
 ```bash
-conda env create -f AI-drug-design.yml
+conda env create -f AlDrugDesign.yml
 ```
 
-如果你在国外或者有🪜，请您打开 AI-drug-design.yml
+如果你在国外或者有🪜，请您打开 AlDrugDesign.yml
 
 删除：
 
@@ -124,7 +124,7 @@ conda env list
 ### Then  
 
 ```bash
-conda activate AI-drug-design
+conda activate AlDrugDesign
 ```
 
 
@@ -144,7 +144,7 @@ conda activate AI-drug-design
 ```
 
 ```
-conda env create -f AI-drug-design_dev.yml
+conda env create -f AlDrugDesign.yml
 ```
 
 
@@ -313,7 +313,7 @@ Git 会将代码下载到当前目录，表示代码拉取成功。
 git clone git@github.com:itWangCode/AI-drug-design.git
 ```
 
-这将下载包含 `AI-drug-design.yml` 文件的仓库到本地。
+这将下载包含 `AlDrugDesign.yml` 文件的仓库到本地。
 
 #### 4. 创建 Conda 环境
 
@@ -325,10 +325,10 @@ git clone git@github.com:itWangCode/AI-drug-design.git
 cd AI-drug-design
 ```
 
-2. 运行以下命令，根据 `AI-drug-design.yml` 文件创建 Conda 环境：
+2. 运行以下命令，根据 `AlDrugDesign.yml` 文件创建 Conda 环境：
 
 ```bash
-conda env create -f AI-drug-design.yml
+conda env create -f AlDrugDesign.yml
 ```
 
 3. Conda 将自动根据 `.yml` 文件安装所需的依赖包并创建环境。
