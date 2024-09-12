@@ -1,4 +1,4 @@
-name: AlDrugDesign
+name: AIDrugDesign
 channels:
   - conda-forge
   - defaults
