@@ -17,6 +17,8 @@ node_modules
 # 忽略特定文件
 config.env
 
+/list/.ipynb_checkpoints
+
 .virtual_documents
  
 # 忽略整个目录
