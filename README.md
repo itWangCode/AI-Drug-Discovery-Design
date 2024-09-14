@@ -133,12 +133,16 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
    - 01_从 ChEMBL 化合物数据采集
    - 02_从 PubChem 获取数据
    - 03_从 KLIFS 获取数据
+     - 03_1 完整项目：《基于机器学习的生物活性预测》
    - 04_查询在线 API 网络服务
 
 ### 2. **分子过滤与预处理**
 
    - 05_分子过滤：ADMET 和先导化合物相似标准
+     - 05_1 完整项目：《基于机器学习与深度学习的分子ADMET预测》
+     - 05_2 完整项目：《基于GNN的分子毒性预测》
    - 06_分子过滤：不需要的子结构
+     - 06_1 完整项目：《基于ADMET和RO5的分子筛选与化合物相似性的配体筛选》
 
 ### 3. **分子表示与相似性分析**
 
@@ -226,6 +230,10 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ### 12. **蛋白质-配体相互作用与预测**
 
    - 37_蛋白质-配体相互作用预测
+     - 完整项目：《项目实战：基于Transformer的有机化学反应产量预测 （Prediction of chemical reaction yields using deep learning）》
+     - 完整项目：《项目实战：Mapping the space of chemical reactions using attention-based neural networks》
+     - 完整项目：《项目实战：基于图数据的小分子化合物生成模型（A Graph to Graphs Framework for Retrosynthesis Prediction）》
+     - 完整项目：《项目实战：基于NLP的抗体生成模型（Generative language modeling for antibody design）》
 
 ### 13. **高级建模与虚拟筛选**
 
