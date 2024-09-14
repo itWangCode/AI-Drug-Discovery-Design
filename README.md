@@ -10,11 +10,17 @@
 
 ##  致谢 
 
-- 首先我感谢我的中山大学的导师雷教授带我入门这一行，我踏入校园一无所知，所以也不知道自己的方向，一脸茫然的，所以还是特别感谢我的导师的。
+- 首先我感谢我的中山大学的导师雷教授带我入门这一行，我踏入校园一无所知，所以也不知道自己的方向，一脸茫然的，所以还是特别感谢我的导师的。并且还要感谢淮阴工学院——喻教授，在他的帮助下才能写出来。同时也感谢张胜玉同学的大力支持完成学业。
 - 第二个首先感谢，南京工业大学的计算化学大佬——“郭为涛”同学，一直帮助我，给我讲解制药的流程。
-- 第三，我还是得感谢我的好朋友——南京医科大学的“周仪萍”同学，是她漂亮善良的姑娘，愿意帮助我。
+- 第三，我还是得感谢我的好朋友——南京医科大学的“周仪萍”同学，是她聪明漂亮善良的姑娘，大力帮助我。
 - 其次，感谢我的群里面的大佬各路指导。
 - 最后感谢社会人士和同道中人来帮我批评指正，让我的这一份文档，这一份代码写得更完整，更加完善，让我们祖国做的更好更强大，感谢祖国，感谢党。
+- 感谢这些帮助我的人完成我的学业！
+
+## Abstract
+
+**Abstract: ** Drug discovery and development affects various aspects of human health and dramatically impacts the pharmaceutical market. However, investments in a new drug often go unrewarded due to the long and complex process of drug research and development (R&D). With the advancement of experimental technology and computer hardware, artificial intelligence (AI) has recently emerged as a leading tool in analyzing abundant and high-dimensional data. Explosive growth in the size of biomedical data provides advantages in applying AI in all stages of drug R&D. Driven by big data in biomedicine, AI has led to a revolution in drug R&D, due to its ability to discover new drugs more efficiently and at lower cost. This review begins with a brief overview of common AI models in the field of drug discovery; then, it summarizes and discusses in depth their specific applications in various stages of drug R&D, such as target discovery, drug discovery and design, preclinical research, automated drug synthesis, and influences in the pharmaceutical market. Finally, the major limitations of AI in drug R&D are fully discussed and possible solutions are proposed.
+***Keywords:*** Artificial intelligence; Machine learning; Deep learning; Target identification; Target discovery; Drug design; Drug discovery
 
 ## **1、 引言**
 
@@ -29,6 +35,8 @@ AlphaFold2在Critical Assessment of Protein Structure Prediction (CASP14)竞赛�
 ![3f55e837d01fad50f2f0ab877ff019a3](img/3f55e837d01fad50f2f0ab877ff019a3.png)
 
 **图1** AI在制药科学中的应用概述。ADMET：吸收、分布、代谢、排泄和毒性。
+
+### 关键词：人工智能 ; 机器学习 ; 深度学习 ; 靶标识别 ; 靶标发现 ; 药物设计 ; 药物发现
 
 ## 2、 AI的基本概念及其应用范围
 
@@ -237,6 +245,25 @@ QSAR和结构-性质关系（QSPR）模型在小分子的ADMET预测中起着关
 深度学习方法也被广泛应用于ADMET特性的预测。例如，经典的前馈反向传播神经网络（BPNN）架构和重复双重交叉验证（rdCV）方法被结合起来估算血脑屏障穿透[337]。深度学习使模型能够使用更大、更具代表性的数据集进行训练，确保涵盖比机器学习更多种类的化合物。通过外部数据集的验证，这种方法预测的值与许多实验推导的logBB值吻合良好。在另一项工作中，它同样证明了神经网络在ADMET特性预测方面通常优于机器学习方法。Montanari等[121]预测了与七个不同的ADMET特性相对应的以下终点：lg*D*、溶解度、熔点、膜亲和性和人血清白蛋白结合。此外，Wang等[338]开发了一个深度学习模型，用于预测药物代谢物，其准确性优于常用的基于规则的方法SyGMa。通过对多任务图卷积模型、全连接神经网络和RF模型的比较，结果显示多任务图卷积模型表现最佳。然而，对于更复杂的任务，如Caco2渗透性或体外代谢稳定性的预测，多任务图卷积网络无法取得良好的结果，可能是由于本研究中构建的模型较为简单，阻碍了模型对更深层次特征的学习。此外，本研究中的多任务模型被认为是一个试错的过程，没有关于哪些任务应该组合在一起的具体经验和规则。
 
 其他最近的研究同样证明了多任务模型在ADMET特性预测中的潜力。已经开发了各种用户友好的ADMET软件和Web服务器来预测分子的ADMET特性[125,339‒342]；其中，ADMETlab 2.0 [125]得到了广泛的赞誉。ADMETlab 2.0基于多任务图注意（MGA）框架，可以预测药物的多个ADMET特性（共包含88个相关参数，包括23个ADME特性、27个毒性终点和8个毒性药效团规则）。训练所使用的大部分数据来自开放获取数据库的生物活性数据、相关文献和毒性预测软件（toxicity estimation software tools, TEST）。基于这些训练集和新颖的模型架构，ADMETlab 2.0预测的一些特性与类似工具的结果相比具有独特性。它是非专家用户的便捷工具，同时能够为药物化学家提供目标分子的全面准确的ADMET特性。
+
+## 6、结论
+
+总之，AI在新药研发的各个方面都具有优势。它可用于药物靶点的发现、新药的设计和开发、临床前研究、临床试验设计和上市后监管，以协助设计安全有效的药物，同时大大缩短药物研发的周期和成本。基于AI的药物研发过程仍存在一些局限性。但我们相信，AI的出现正在逐步帮助我们揭开大型复杂生物系统的神秘面纱，AI已经成为药物研发过程中不可或缺的技术。此外，AI技术将在未来改变医药科学的研发范式，帮助我们更好地攻克复杂疾病，同时为患者提供个性化医疗服务。在这一过程中，需要进一步开展研究，为这一领域注入新的活力。
+
+
+
+文章引入：
+Mingkun Lu, Jiayi Yin, Qi Zhu, Gaole Lin, Minjie Mou, Fuyao Liu, Ziqi Pan, Nanxin You, Xichen Lian, Fengcheng Li, Hongning Zhang, Lingyan Zheng, Wei Zhang, Hanyu Zhang, Zihao Shen, Zhen Gu, Honglin Li, Feng Zhu,
+Artificial Intelligence in Pharmaceutical Sciences,
+Engineering,
+Volume 27,
+2023,
+Pages 37-69,
+ISSN 2095-8099,
+https://doi.org/10.1016/j.eng.2023.01.014.
+(https://www.sciencedirect.com/science/article/pii/S2095809923001649)
+Abstract: Drug discovery and development affects various aspects of human health and dramatically impacts the pharmaceutical market. However, investments in a new drug often go unrewarded due to the long and complex process of drug research and development (R&D). With the advancement of experimental technology and computer hardware, artificial intelligence (AI) has recently emerged as a leading tool in analyzing abundant and high-dimensional data. Explosive growth in the size of biomedical data provides advantages in applying AI in all stages of drug R&D. Driven by big data in biomedicine, AI has led to a revolution in drug R&D, due to its ability to discover new drugs more efficiently and at lower cost. This review begins with a brief overview of common AI models in the field of drug discovery; then, it summarizes and discusses in depth their specific applications in various stages of drug R&D, such as target discovery, drug discovery and design, preclinical research, automated drug synthesis, and influences in the pharmaceutical market. Finally, the major limitations of AI in drug R&D are fully discussed and possible solutions are proposed.
+Keywords: Artificial intelligence; Machine learning; Deep learning; Target identification; Target discovery; Drug design; Drug discovery
 
 ## 目录
 
