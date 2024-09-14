@@ -38,7 +38,7 @@ Abstract: Drug discovery and development affects various aspects of human health
 
 Keywords: Artificial intelligence; Machine learning; Deep learning; Target identification; Target discovery; Drug design; Drug discovery
 
-- 👉🏻👉🏻👉🏻👉🏻👉🏻目前目录分为了，第一节和第二节分别：提供没有基础的同学，有基础的同学
+- 👉🏻👉🏻👉🏻👉🏻👉🏻目前目录分为了，第一、二节和第三节分别：提供没有基础的同学，有基础的同学
 
 ## 目录
 
@@ -259,6 +259,93 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
    - 40_One-Hot 编码
    - 41_使用代码绘制分子图
+
+
+
+## **第四节 研究基因到免疫浸润**
+
+#### **1. Introduction**
+- 研究目标：探索基因与免疫浸润之间的关系
+- 背景介绍：免疫浸润的重要性及其在基因表达中的影响
+
+#### **2. Software 环境配置**
+- 安装与配置所需的软件工具（如 R、Python、Bioconductor ）
+
+#### **3. 数据下载与预处理**
+- 从 GEO、TCGA 等数据库下载基因表达数据
+- 数据标准化和清洗
+
+#### **4. 数据注释** Annotation (ANN)
+- 使用注释文件（如 GTF 或 GFF 文件）对基因表达数据进行注释
+- 工具：`biomaRt`、`org.Hs.eg.db`
+
+#### **5. SVA (Surrogate Variable Analysis)**
+- 使用 SVA 校正批次效应
+- 代码实现：`sva`包中的 `ComBat` 或 `svaseq` 方法
+
+#### **6. 差异基因分析 **Differential Gene Expression (Diff)
+- 使用 `limma`、`DESeq2` 等工具进行差异基因分析
+- 生成差异表达基因（DEGs）列表
+
+#### **7. 火山图绘制** Volcano Plot
+- 使用差异分析的结果绘制火山图
+- 代码实现：`ggplot2`、`EnhancedVolcano`包
+
+#### **8. 富集分析**
+- **08. Metascape**
+  - 在 Metascape 网站上进行通路和功能富集分析
+
+- **09. Gene Ontology (GO)**
+  - 使用 GO 进行基因功能注释和富集分析
+  - 工具：`clusterProfiler`、`topGO`
+
+- **10. KEGG 富集分析**
+  - 使用 KEGG 数据库进行信号通路富集分析
+  - 工具：`clusterProfiler`、`KEGGREST`
+
+#### **11. 蛋白质互作网络**
+- **11. Protein-Protein Interaction (PPI)**
+  - 构建蛋白质-蛋白质互作网络
+  - 工具：`STRING` 数据库、`Cytoscape`
+
+#### **12. 随机森林模型Random Forest**
+- 构建随机森林模型，筛选重要基因
+
+#### **13. 热图绘制Heatmap**
+- 绘制差异基因的表达热图
+
+#### **14. 基因评分计算**Gene Score
+- 根据差异基因计算基因评分
+- 代码实现：基于基因表达值的综合评分方法
+
+#### **15. 神经网络模型Neural Network**
+- 使用神经网络模型对基因表达进行预测
+- 工具：`neuralnet`包
+
+#### **16. ROC 曲线分析Receiver Operating Characteristic (ROC)**
+- 绘制 ROC 曲线，评估模型的准确性
+- 工具：`pROC` 包
+
+#### **17. 基因评分测试Test Gene Score**
+- 测试基因评分模型的准确性和可行性
+
+#### **18. 神经网络预测测试Test Neural Network Prediction**
+- 测试神经网络模型的预测能力
+
+#### **19. ROC 测试Test ROC**
+- 使用测试数据集验证 ROC 曲线
+
+#### **20. CIBERSORT 分析**
+- 使用 CIBERSORT 分析基因表达数据，估算免疫细胞的比例
+
+#### **21. 柱状图绘制**Barplot
+- 绘制免疫细胞比例的柱状图
+- 工具：`ggplot2`
+
+#### **22. 小提琴图绘制Violin Plot**
+- 绘制基因表达与免疫细胞浸润之间的关系图
+
+
 
 
 
