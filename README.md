@@ -536,7 +536,9 @@ conda activate AI-drug-design
 
 ## ☕️☕️☕️能否支持我喝一杯咖啡☕️☕️☕️☕️☕️，谢谢！！让我更有动力，写作💪🏻！！！
 
-![image-20240909162446456](img/qqpay.png)
+<figure class="third">
+    <img src="img/qqpay.png" width="400"/><img src="img/wx.jpg" width="400"/>
+</figure>
 
 
 
@@ -1129,7 +1131,9 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 ## ☕️☕️☕️能否支持我喝一杯咖啡☕️☕️☕️☕️☕️，谢谢！！让我更有动力，写作💪🏻！！！
 
-![image-20240909162446456](img/qqpay.png)
+<figure class="third">
+    <img src="img/qqpay.png" width="400"/><img src="img/wx.jpg" width="400"/>
+</figure>
 
 ## Reference
 
