@@ -539,10 +539,10 @@ conda activate AI-drug-design
 <figure class="third" style="width:100%">
   <div style="width:100%;display: flex;align-items: center;justify-content: space-between;">
     <div>
-      <img src="img/qqpay.png" width="100%"/>
+      <img src="img/qqpay.png" width="350"/>
     </div>
     <div>
-      <img src="img/wx.jpg"  width="100%"/>
+      <img src="img/wx.jpg"  width="350"/>
     </div>
   </div>
 
