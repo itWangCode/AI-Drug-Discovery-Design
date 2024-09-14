@@ -19,8 +19,13 @@
 
 ## Abstract
 
-**Abstract: ** Drug discovery and development affects various aspects of human health and dramatically impacts the pharmaceutical market. However, investments in a new drug often go unrewarded due to the long and complex process of drug research and development (R&D). With the advancement of experimental technology and computer hardware, artificial intelligence (AI) has recently emerged as a leading tool in analyzing abundant and high-dimensional data. Explosive growth in the size of biomedical data provides advantages in applying AI in all stages of drug R&D. Driven by big data in biomedicine, AI has led to a revolution in drug R&D, due to its ability to discover new drugs more efficiently and at lower cost. This review begins with a brief overview of common AI models in the field of drug discovery; then, it summarizes and discusses in depth their specific applications in various stages of drug R&D, such as target discovery, drug discovery and design, preclinical research, automated drug synthesis, and influences in the pharmaceutical market. Finally, the major limitations of AI in drug R&D are fully discussed and possible solutions are proposed.
-***Keywords:*** Artificial intelligence; Machine learning; Deep learning; Target identification; Target discovery; Drug design; Drug discovery
+```
+Abstract: Drug discovery and development affects various aspects of human health and dramatically impacts the pharmaceutical market. However, investments in a new drug often go unrewarded due to the long and complex process of drug research and development (R&D). With the advancement of experimental technology and computer hardware, artificial intelligence (AI) has recently emerged as a leading tool in analyzing abundant and high-dimensional data. Explosive growth in the size of biomedical data provides advantages in applying AI in all stages of drug R&D. Driven by big data in biomedicine, AI has led to a revolution in drug R&D, due to its ability to discover new drugs more efficiently and at lower cost. This review begins with a brief overview of common AI models in the field of drug discovery; then, it summarizes and discusses in depth their specific applications in various stages of drug R&D, such as target discovery, drug discovery and design, preclinical research, automated drug synthesis, and influences in the pharmaceutical market. Finally, the major limitations of AI in drug R&D are fully discussed and possible solutions are proposed.
+```
+
+```
+Keywords: Artificial intelligence; Machine learning; Deep learning; Target identification; Target discovery; Drug design; Drug discovery
+```
 
 ## **1、 引言**
 
@@ -265,10 +270,66 @@ https://doi.org/10.1016/j.eng.2023.01.014.
 Abstract: Drug discovery and development affects various aspects of human health and dramatically impacts the pharmaceutical market. However, investments in a new drug often go unrewarded due to the long and complex process of drug research and development (R&D). With the advancement of experimental technology and computer hardware, artificial intelligence (AI) has recently emerged as a leading tool in analyzing abundant and high-dimensional data. Explosive growth in the size of biomedical data provides advantages in applying AI in all stages of drug R&D. Driven by big data in biomedicine, AI has led to a revolution in drug R&D, due to its ability to discover new drugs more efficiently and at lower cost. This review begins with a brief overview of common AI models in the field of drug discovery; then, it summarizes and discusses in depth their specific applications in various stages of drug R&D, such as target discovery, drug discovery and design, preclinical research, automated drug synthesis, and influences in the pharmaceutical market. Finally, the major limitations of AI in drug R&D are fully discussed and possible solutions are proposed.
 Keywords: Artificial intelligence; Machine learning; Deep learning; Target identification; Target discovery; Drug design; Drug discovery
 
+
+
+
+
+- 👉🏻👉🏻👉🏻👉🏻👉🏻目前目录分为了，第一节和第二节分别：提供没有基础的同学，有基础的同学
+
 ## 目录
 
-- 00_人工智能在医学中的应用
-  - 
+### 第一节基础部分
+
+0. 人工智能在医学中的应用
+   - python基础
+   - numpy、pandas
+   - matplotlib
+   - 机器学习和scikit_learn
+   - 深度学习
+   - CADD
+   - 图神经
+
+1. Python和机器学习基础
+   - 分子的文本表示：SMILES
+   - 分子的向量表示：描述符和指纹
+   -  RDKit简介
+   - 经典机器学习模型：线性回归、随机森林、支持向量机
+2. 公开可用的小分子数据集的探索
+   - 生物活性分子 ChEMBL 数据库
+   - ZINC 数据库
+   - 小分子化学信息 PubChem 数据库
+   - 探索性数据分析 (EDA)
+   - 定量构效关系 (QSAR) 和虚拟筛选 (VS)
+3.  图神经网络
+   - 神经网络架构和训练
+   - 分子图、原子特征化
+   - 消息传递神经网络
+   - 图卷积神经网络
+   -  可解释性：Grad-CAM
+4.  分子对接
+   - 分子数据格式：SMI、SDF、MOL2、PDB
+   -  力场
+   -  蛋白质折叠
+   - 使用 AutoDock Vina、Smina、QuickVina 进行分子对接
+   -  交互指纹
+   -  药效团
+5.  深度生成模型
+   -  自动编码器
+   - 循环神经网络
+   - SMILES 生成器：ReLeaSE 和 REINVENT
+   - 基于图的生成模型：JT-VAE
+   - 用于分子特性优化的强化学习和贝叶斯优化
+6.  蛋白质深度学习
+   - 简化的蛋白质图表示
+   - 体素网格表示
+   - 用于编码蛋白质表面的网格表示
+   - 用于编码蛋白质的 3D 卷积神经网络
+7.  不确定性预测
+   - 任意和认知的不确定性
+   -  共形预测
+
+### 第二节实战部分
+
 - 01_化合物数据采集（ChEMBL）
 - 02_分子过滤：ADME和先导化合物相似标准
 - 03_分子过滤：不需要的子结构
