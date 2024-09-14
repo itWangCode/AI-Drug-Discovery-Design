@@ -536,14 +536,10 @@ conda activate AI-drug-design
 
 ## ☕️☕️☕️能否支持我喝一杯咖啡☕️☕️☕️☕️☕️，谢谢！！让我更有动力，写作💪🏻！！！
 
-<figure class="third" style="width:100%">
-  <div style="width:100%;display: flex;align-items: center;justify-content: space-between;">
-    <div>
+<figure class="third">
+  <div style="display: flex;align-items: center;justify-content: space-between;">
       <img src="img/qqpay.png" width="350"/>
-    </div>
-    <div>
       <img src="img/wx.jpg"  width="350"/>
-    </div>
   </div>
 
 </figure>
