@@ -1,0 +1,13 @@
+activity_id,assay_chembl_id,assay_description,assay_type,molecule_chembl_id,relation,units,IC50,target_chembl_id,target_organism,type
+1489866,CHEMBL827977,Inhibition of Mitogen activated protein kinase 6; Range is 5-10,B,CHEMBL1788116,=,nM,10000.0,CHEMBL2171,Homo sapiens,IC50
+2528951,CHEMBL985886,Inhibition of MKK6,B,CHEMBL507249,=,nM,15000.0,CHEMBL2171,Homo sapiens,IC50
+16416040,CHEMBL3751417,Inhibition of MKK6 (unknown origin) using [gamma-33P]-ATP after 20 mins by radiometric assay,B,CHEMBL449216,=,nM,16000.0,CHEMBL2171,Homo sapiens,IC50
+16837445,CHEMBL3876108,Inhibition of human recombinant full length His-tagged MAP2K6 expressed in baculovirus expression system,B,CHEMBL3884319,=,nM,10000.0,CHEMBL2171,Homo sapiens,IC50
+16897330,CHEMBL3882688,Inhibition of MKK6 (unknown origin) using kemptide as substrate measured after 2 hrs by kinase-Glo luminescent kinase assay,B,CHEMBL456689,=,nM,6200.0,CHEMBL2171,Homo sapiens,IC50
+17982175,CHEMBL3998824,Inhibition of human MKK6 using p38a as substrate in presence of [gamma-33P]-ATP by scintillation counting method,B,CHEMBL2012519,=,nM,388.2,CHEMBL2171,Homo sapiens,IC50
+18938995,CHEMBL4328498,Inhibition of human MKK6 using p38alpha as substrate by [gamma-33P]-ATP assay,B,CHEMBL388978,=,nM,8.34,CHEMBL2171,Homo sapiens,IC50
+19476594,CHEMBL4479742,Inhibition of full-length recombinant human His-tagged MAP2K6 expressed in baculovirus expression system by Z'-LYTE assay,B,CHEMBL4569508,=,nM,19000.0,CHEMBL2171,Homo sapiens,IC50
+19476694,CHEMBL4479742,Inhibition of full-length recombinant human His-tagged MAP2K6 expressed in baculovirus expression system by Z'-LYTE assay,B,CHEMBL4550702,=,nM,35000.0,CHEMBL2171,Homo sapiens,IC50
+19476794,CHEMBL4479742,Inhibition of full-length recombinant human His-tagged MAP2K6 expressed in baculovirus expression system by Z'-LYTE assay,B,CHEMBL4568087,=,nM,290.0,CHEMBL2171,Homo sapiens,IC50
+19476894,CHEMBL4479742,Inhibition of full-length recombinant human His-tagged MAP2K6 expressed in baculovirus expression system by Z'-LYTE assay,B,CHEMBL4552628,=,nM,3300.0,CHEMBL2171,Homo sapiens,IC50
+22876492,CHEMBL4725953,Inhibition of MEK6 (unknown origin),B,CHEMBL456,=,nM,4500.0,CHEMBL2171,Homo sapiens,IC50
