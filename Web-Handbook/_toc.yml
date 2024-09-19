@@ -1,0 +1,11 @@
+format: jb-book
+root: docs/00-welcome
+chapters:
+- file: docs/01-install
+- file: docs/02-structure
+- file: docs/03-images
+- file: docs/04-metadata
+- file: docs/05-config
+- file: docs/06-profiling
+- file: docs/07-train
+- file: docs/08-process
