@@ -1,6 +1,6 @@
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://https://itwangcode.github.io/AI-drug-design/)
 
-# AIDD Handbook
+# AI for Drug Design (AIDD) Handbook
 Documentation for overall pipeline of AIDD
 
 Website available [HERE](https://itwangcode.github.io/AI-drug-design/)
