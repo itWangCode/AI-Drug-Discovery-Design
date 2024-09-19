@@ -1,10 +1,11 @@
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://cytomining.github.io/DeepProfiler-handbook/)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://https://itwangcode.github.io/AI-drug-design/)
 
-# DeepProfiler Handbook
-Documentation for installation and use of DeepProfiler (Jupyter Book)
-Website available [HERE](https://cytomining.github.io/DeepProfiler-handbook/)
+# AIDD Handbook
+Documentation for overall pipeline of AIDD
 
-<img width="1466" alt="image" src="https://user-images.githubusercontent.com/28116530/160191277-07a1491e-f81a-4ab0-9722-8348322516a8.png">
+Website available [HERE](https://itwangcode.github.io/AI-drug-design/)
+
+<img width="1466" alt="image" src="img/platform.png">
 
 
 ## How to contribute changes
