@@ -1,6 +1,6 @@
 # Welcome to DeepProfiler
 
-[DeepProfiler](https://github.com/cytomining/DeepProfiler) uses representation learning for extracting phenotypic information from microscopy images of cells. This guide describes how to install and run DeepProfiler using the provided example data. After completing this guide, you should have a running version of DeepProfiler, and a general understanding of how to structure your data to use this software, as well as the output that it produces.
+[AIDD](https://github.com/itWangCode/AI-drug-design) uses representation learning for extracting phenotypic information from microscopy images of cells. This guide describes how to install and run DeepProfiler using the provided example data. After completing this guide, you should have a running version of DeepProfiler, and a general understanding of how to structure your data to use this software, as well as the output that it produces.
 
 ```{figure} images/image1.png
 ---
