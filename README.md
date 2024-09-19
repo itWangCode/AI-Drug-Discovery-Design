@@ -2,7 +2,7 @@
 
 ## 人工智能辅助药物发现与设计
 
-## Artificial intelligence-assisted drug discovery and design
+## Artificial Intelligence-assisted Drug Discovery and Design
 
 ## Artificial Intelligence Drug Design
 
