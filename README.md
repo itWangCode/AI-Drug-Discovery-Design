@@ -105,6 +105,7 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ## 第二节 化学信息学
 <details>
 <summary>目录展开</summary>
+
 1. 基础知识
    - 化学信息学 RDKit 简介
    - Pandas 在化学信息学中的应用
@@ -150,6 +151,7 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ## 第三节 实战部分
 <details>
 <summary>目录展开</summary>
+
 ### 1. **化合物数据采集与初步处理**
 
    - 01_从 ChEMBL 化合物数据采集
@@ -211,6 +213,7 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ### 10. **RNA Aptamer 设计与分析**
 <details>
 <summary>目录展开</summary>
+
 #### **1. 数据采集与准备**
 
 - **27_1 RNA Aptamer 数据来源**
@@ -272,6 +275,8 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 
 ## **第四节 研究基因到免疫浸润**
+<details>
+<summary>目录展开</summary>
 
 #### **1. Introduction**
 - 研究目标：探索基因与免疫浸润之间的关系
@@ -300,22 +305,20 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 - 使用差异分析的结果绘制火山图
 - 代码实现：`ggplot2`、`EnhancedVolcano`包
 
-#### **8. 富集分析**
-- **08. Metascape**
-  - 在 Metascape 网站上进行通路和功能富集分析
+#### **8. 富集分析** Metascape
+- 在 Metascape 网站上进行通路和功能富集分析
 
-- **09. Gene Ontology (GO)**
-  - 使用 GO 进行基因功能注释和富集分析
-  - 工具：`clusterProfiler`、`topGO`
+#### **9. Gene Ontology (GO)**
+- 使用 GO 进行基因功能注释和富集分析
+- 工具：`clusterProfiler`、`topGO`
 
-- **10. KEGG 富集分析**
-  - 使用 KEGG 数据库进行信号通路富集分析
-  - 工具：`clusterProfiler`、`KEGGREST`
+#### **10. KEGG 富集分析**
+- 使用 KEGG 数据库进行信号通路富集分析
+- 工具：`clusterProfiler`、`KEGGREST`
 
-#### **11. 蛋白质互作网络**
-- **11. Protein-Protein Interaction (PPI)**
-  - 构建蛋白质-蛋白质互作网络
-  - 工具：`STRING` 数据库、`Cytoscape`
+#### **11. 蛋白质互作网络** **Protein-Protein Interaction (PPI)**
+- 构建蛋白质-蛋白质互作网络
+- 工具：`STRING` 数据库、`Cytoscape`
 
 #### **12. 随机森林模型Random Forest**
 - 构建随机森林模型，筛选重要基因
@@ -354,11 +357,14 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 #### **22. 小提琴图绘制Violin Plot**
 - 绘制基因表达与免疫细胞浸润之间的关系图
 
+</details>
 
 
 
 
 ## 项目结构
+<details>
+<summary>结构展开</summary>
 
 ```
 |-- Al-drug-design-reference.Data   <- 参考文献文件夹
@@ -371,11 +377,12 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 |   |-- 00_ai in_medicine                          <- Python基础知识（❤️如果你有Python基础，或者你有Python与药物设计基础，你可以跳过这一章节，直接从01开始看）
 |   |-- 01_Compound_data_acquisition               <- 化合物采集
 ```
-
+</details>
 
 
 ## 配置代码环境
-
+<details>
+<summary>细节展开</summary>
 
 
 --------------------------------------⚠️如果你是大佬，直接看下面的这一步 beginning------------------------
@@ -405,7 +412,6 @@ conda env create -f AIDrugDesign.yml
 ```
 
 
-
 ### second
 
 ```bash
@@ -421,14 +427,15 @@ conda activate AIDrugDesign
 ```
 
 
-
 ------------------------------------------⚠️如果你是大佬，直接看下面的这一步 end------------------------
 
-
+</details>
 
 
 
 ### ❤️如果你是小白的话，请您谦虚的看着下面的步骤：
+<details>
+<summary>步骤展开</summary>
 
 ### 一、Windows 和 macOS 系统上安装和配置 Git，并拉取我的代码到本地。
 
@@ -772,7 +779,7 @@ EUWT4EE9X2-eyJsaWNlbnNlSWQiOiJFVVdUNEVFOVgyIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb
 
 更多的额操作：请您参考：【https://www.exception.site/article/1762】
 
-
+</details>
 
 
 
