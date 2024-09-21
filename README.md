@@ -617,8 +617,8 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ## 进群讨论
 
 
-<div style="display: flex; justify-content: center; align-items: center; height: 300px;">
-  <img src="img/qq.png" alt="Image 1" style="width: 45%; height: 700px; object-fit: cover; margin: auto;">
+<div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+  <img src="img/qq.png" alt="Image 1" style="width: 45%; height: 550px; object-fit: cover; margin: auto;">
   <img src="img/tg.png" alt="Image 2" style="width: 45%; height: 500px; object-fit: cover; margin: auto;">
 </div>
 
