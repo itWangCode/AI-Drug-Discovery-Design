@@ -21,7 +21,7 @@
 
 ## 前言：人工智能在药物发现与设计中的应用
 <details>
-<summary>语法展开</summary>
+<summary>前言展开</summary>
 
 ## **1、 引言**
 
