@@ -1262,8 +1262,9 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 <figure class="third">
     <img src="img/qqpay.png" width="400"/><img src="img/wx.jpg" width="400"/>
 </figure>
-<figure style="display: flex; justify-content: space-around;">
-    <img src="img/qqpay.png" width="400"/>
+
+<figure style="display: flex; align-items: center;">
+    <img src="img/qqpay.png" width="400" style="margin-right: 10px;"/>
     <img src="img/wx.jpg" width="400"/>
 </figure>
 
