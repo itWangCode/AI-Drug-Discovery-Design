@@ -1,14 +1,10 @@
-# AI-drug-design
+# Artificial Intelligence Drug Design (AIDD)
 
 ## 人工智能辅助药物发现与设计
 
 ## Artificial Intelligence-assisted Drug Discovery and Design
 
-## Artificial Intelligence Drug Design
-
-## 全世界唯一的实战开源从0基础入门学习AIDD，手把手教学入门到博士大佬级别的教程
-
-### The only practical open source in the world to learn AIDD from the 0-based entry, hand-to-hand teaching entry to the doctoral level tutorial.
+## 全球唯一实战开源教程，零基础入门AIDD，手把手教学入门到博士大佬级别
 
 让我为大家简要介绍一下我负责的领域——**人工智能辅助药物发现与设计**。为了更好地帮助大家理解这一复杂的前沿技术，我将通过中文为大家进行讲解，特别是为那些可能在语言上有所障碍的同学提供支持。尽管这种内容通常更适合以英语呈现，但为了确保大家能够更好地掌握核心概念并迅速上手，我选择用中文为大家提供更加直观的学习路径。
 
@@ -31,7 +27,6 @@
 - 其次，感谢我的群里面的大佬各路指导。
 - 最后感谢社会人士和同道中人来帮我批评指正，让我的这一份文档，这一份代码写得更完整，更加完善，让我们祖国做的更好更强大，感谢祖国，感谢党。
 - 感谢这些帮助我的人完成我的学业！
-
 
 
 ## 欢迎来到人工智能药物发现与设计平台
@@ -107,7 +102,8 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 </details>
 
 ## 第二节 化学信息学
-
+<details>
+<summary>目录展开</summary>
 1. 基础知识
    - 化学信息学 RDKit 简介
    - Pandas 在化学信息学中的应用
@@ -148,9 +144,11 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 8. 神经网络潜能
    - 使用 Auto3D 的同分异构体能量预测
+</details>
 
 ## 第三节 实战部分
-
+<details>
+<summary>目录展开</summary>
 ### 1. **化合物数据采集与初步处理**
 
    - 01_从 ChEMBL 化合物数据采集
@@ -210,7 +208,8 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
    - 26_不确定性估计
 
 ### 10. **RNA Aptamer 设计与分析**
-
+<details>
+<summary>目录展开</summary>
 #### **1. 数据采集与准备**
 
 - **27_1 RNA Aptamer 数据来源**
@@ -240,6 +239,7 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 - **30_5 分子动力学模拟**
 - **30_6 实验验证**
+</details>
 
 ### 11. **激酶相似性与分析**
 
@@ -267,7 +267,7 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
    - 40_One-Hot 编码
    - 41_使用代码绘制分子图
-
+</details>
 
 
 ## **第四节 研究基因到免疫浸润**
