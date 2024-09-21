@@ -616,11 +616,12 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 ## 进群讨论
 
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="img/qq.png" alt="Image 1" style="width: 45%;">
-  <img src="img/tg.png" alt="Image 2" style="width: 45%;">
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="img/qq.png" alt="Image 1" style="width: 45%; height: 200px; object-fit: cover;">
+  <img src="img/tg.png" alt="Image 2" style="width: 45%; height: 200px; object-fit: cover;">
 </div>
+
+
 
 
 ### Link: t.me/AIDD_itwangyang
