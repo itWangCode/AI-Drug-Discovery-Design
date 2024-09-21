@@ -50,6 +50,8 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 ## 第一节 基础部分
 
+<details>
+<summary>Earlier ArXiv Papers</summary>
 0. 人工智能在医学中的应用
    - Python基础
    - Numpy、Pandas
@@ -103,6 +105,7 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 7. 不确定性预测
    - 任意和认知的不确定性
    - 共形预测
+</details>
 
 ## 第二节 化学信息学
 
