@@ -601,6 +601,8 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 
 ## QS问题区
+<details>
+<summary>问题展开</summary>
 
 ### 1. 比如说你会遇见这样子的情况？
 
@@ -610,13 +612,16 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
   ![15c1411d3a43c97a1c005f046e0ce81b](img/15c1411d3a43c97a1c005f046e0ce81b.png)
 
-
+</details>
 
 ## 进群讨论
 
-![image-20240909162446456](img/qq.png)
 
-![image-20240909162446456](img/tg.png)
+<div style="display: flex; justify-content: space-between;">
+  <img src="img/qq.png" alt="Image 1" style="width: 45%;">
+  <img src="img/tg.png" alt="Image 2" style="width: 45%;">
+</div>
+
 
 ### Link: t.me/AIDD_itwangyang
 
