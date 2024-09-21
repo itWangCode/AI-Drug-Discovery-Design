@@ -49,7 +49,7 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ## 目录
 
 <details>
-<summary> ## 第一节 基础部分 </summary>
+<summary>## 第一节 基础部分</summary>
 0. 人工智能在医学中的应用
    - Python基础
    - Numpy、Pandas
