@@ -627,10 +627,10 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 ## ☕️☕️☕️能否支持我喝一杯咖啡☕️☕️☕️☕️☕️，谢谢！！让我更有动力，写作💪🏻！！！
 
-<figure class="third">
-    <img src="img/qqpay.png" width="300"/><img src="img/wx.jpg" width="300"/>
-</figure>
-
+<div style="display: flex; justify-content: space-between;">
+  <img src="img/qqpay.png" alt="Image 1" style="width: 45%;">
+  <img src="img/wx.jpg" alt="Image 2" style="width: 45%;">
+</div>
 
 
 
