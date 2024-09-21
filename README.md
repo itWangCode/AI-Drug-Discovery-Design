@@ -1220,9 +1220,6 @@ https://doi.org/10.1016/j.eng.2023.01.014.
 (https://www.sciencedirect.com/science/article/pii/S2095809923001649)
 Abstract: Drug discovery and development affects various aspects of human health and dramatically impacts the pharmaceutical market. However, investments in a new drug often go unrewarded due to the long and complex process of drug research and development (R&D). With the advancement of experimental technology and computer hardware, artificial intelligence (AI) has recently emerged as a leading tool in analyzing abundant and high-dimensional data. Explosive growth in the size of biomedical data provides advantages in applying AI in all stages of drug R&D. Driven by big data in biomedicine, AI has led to a revolution in drug R&D, due to its ability to discover new drugs more efficiently and at lower cost. This review begins with a brief overview of common AI models in the field of drug discovery; then, it summarizes and discusses in depth their specific applications in various stages of drug R&D, such as target discovery, drug discovery and design, preclinical research, automated drug synthesis, and influences in the pharmaceutical market. Finally, the major limitations of AI in drug R&D are fully discussed and possible solutions are proposed.
 Keywords: Artificial intelligence; Machine learning; Deep learning; Target identification; Target discovery; Drug design; Drug discovery
-</details>
-
-
 
 
 ## 来源的出处
@@ -1236,6 +1233,9 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ![image-20240909162431911](img/image-20240909162431911.png)
 
 ![image-20240909162446456](img/image-20240909162446456.png)
+
+</details>
+
 
 ## QS问题区
 
@@ -1263,6 +1263,16 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
     <img src="img/qqpay.png" width="400"/><img src="img/wx.jpg" width="400"/>
 </figure>
 
+
+
+##  致谢 
+
+- 首先我感谢我的中山大学的导师雷教授带我入门这一行，我踏入校园一无所知，所以也不知道自己的方向，一脸茫然的，所以还是特别感谢我的导师的。并且还要感谢淮阴工学院——喻教授，在他的帮助下才能写出来。同时也感谢张胜玉同学的大力支持完成学业。
+- 第二个首先感谢，南京工业大学的计算化学大佬——“郭为涛”同学，一直帮助我，给我讲解制药的流程。
+- 第三，我还是得感谢我的好朋友——南京医科大学的“周仪萍”同学，是她聪明漂亮善良的姑娘，大力帮助我。
+- 其次，感谢我的群里面的大佬各路指导。
+- 最后感谢社会人士和同道中人来帮我批评指正，让我的这一份文档，这一份代码写得更完整，更加完善，让我们祖国做的更好更强大，感谢祖国，感谢党。
+- 感谢这些帮助我的人完成我的学业！
 
 ## Reference
 <details>
@@ -2138,11 +2148,3 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 </details>
 
 
-##  致谢 
-
-- 首先我感谢我的中山大学的导师雷教授带我入门这一行，我踏入校园一无所知，所以也不知道自己的方向，一脸茫然的，所以还是特别感谢我的导师的。并且还要感谢淮阴工学院——喻教授，在他的帮助下才能写出来。同时也感谢张胜玉同学的大力支持完成学业。
-- 第二个首先感谢，南京工业大学的计算化学大佬——“郭为涛”同学，一直帮助我，给我讲解制药的流程。
-- 第三，我还是得感谢我的好朋友——南京医科大学的“周仪萍”同学，是她聪明漂亮善良的姑娘，大力帮助我。
-- 其次，感谢我的群里面的大佬各路指导。
-- 最后感谢社会人士和同道中人来帮我批评指正，让我的这一份文档，这一份代码写得更完整，更加完善，让我们祖国做的更好更强大，感谢祖国，感谢党。
-- 感谢这些帮助我的人完成我的学业！
