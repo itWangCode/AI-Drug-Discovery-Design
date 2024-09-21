@@ -624,7 +624,6 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 
 
 
-### Link: t.me/AIDD_itwangyang
 
 ## ☕️☕️☕️能否支持我喝一杯咖啡☕️☕️☕️☕️☕️，谢谢！！让我更有动力，写作💪🏻！！！
 
