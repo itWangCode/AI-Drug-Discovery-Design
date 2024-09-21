@@ -370,7 +370,54 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
 ```
 
 
-## 配置代码环境   [[**点击展开**](docs/install.md)]
+## 配置代码环境   
+
+
+--------------------------------------⚠️如果你是大佬，直接看这一步 beginning------------------------
+
+应安装 Anaconda 和 Git。请参阅[Anaconda 的网站](https://www.anaconda.com/)和[Git 的网站](https://git-scm.com/downloads)进行下载。
+
+### first 
+
+❤️ u must need  read paper ⚠️:
+
+Where r u ***AIDrugDesign.yml*** ?
+
+u first git clone my link!!!, it is have AIDrugDesign.yml.
+
+```bash
+conda env create -f AIDrugDesign.yml
+```
+
+如果你在国外或者有🪜，请您打开 AIDrugDesign.yml
+
+删除：
+
+```bash
+  - pytorch
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+```
+
+
+### second
+
+```bash
+conda env list
+```
+
+ Check to see if the  ***AI-drug-design*** 
+
+### Then  
+
+```bash
+conda activate AIDrugDesign
+```
+
+
+------------------------------------------⚠️如果你是大佬，直接看这一步 end------------------------
+
+### ❤️如果你是小白的话，请您谦虚的看着下面的步骤： [[**点击展开**](docs/install.md)]
 
 
 
