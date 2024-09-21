@@ -786,10 +786,12 @@ EUWT4EE9X2-eyJsaWNlbnNlSWQiOiJFVVdUNEVFOVgyIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb
 
 
 ## 文章所用到的 ***Python*** 语法
+<details>
+<summary>语法展开</summary>
 
 ### Python 学习目录和教案 —— 适用于 AI-drug-design 项目
 
-在学习 Python 用于 AI 药物设计（AI-drug-design）项目时，您需要掌握以下知识点。学习计划将涵盖基础知识、数据处理、机器学习、深度学习框架、药物设计相关库的使用等内容。以下是详细的学习目录和教案：
+在学习 Python 用于 AI 药物设计（AIDD）项目时，您需要掌握以下知识点。学习计划将涵盖基础知识、数据处理、机器学习、深度学习框架、药物设计相关库的使用等内容。以下是详细的学习目录和教案：
 
 ---
 
@@ -867,10 +869,12 @@ EUWT4EE9X2-eyJsaWNlbnNlSWQiOiJFVVdUNEVFOVgyIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb
    ```
 
    
-
+</details>
 ---
 
 ### 教案
+<details>
+<summary>教案展开</summary>
 
 #### 1. Python 基础
 
@@ -976,7 +980,7 @@ EUWT4EE9X2-eyJsaWNlbnNlSWQiOiJFVVdUNEVFOVgyIiwibGljZW5zZWVOYW1lIjoic2lnbnVwIHNjb
 
 - 使用 GAN 模型生成新的分子结构
 - 编写脚本对某一蛋白质靶点进行分子对接模拟
-
+</details>
 
 
 ## **1、 引言**
