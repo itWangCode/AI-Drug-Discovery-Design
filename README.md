@@ -621,6 +621,11 @@ Keywords: Artificial intelligence; Machine learning; Deep learning; Target ident
   <img src="img/tg.png" alt="Image 2" style="width: 45%; height: 600px; object-fit: cover;">
 </div>
 
+<div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+  <img src="img/qq.png" alt="Image 1" style="width: 45%; height: 500px; object-fit: cover; margin: auto;">
+  <img src="img/tg.png" alt="Image 2" style="width: 45%; height: 500px; object-fit: cover; margin: auto;">
+</div>
+
 
 
 
