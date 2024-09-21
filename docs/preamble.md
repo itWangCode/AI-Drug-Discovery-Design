@@ -10,7 +10,7 @@ AlphaFold2在Critical Assessment of Protein Structure Prediction (CASP14)竞赛�
 
 在这一背景下，AI技术主要涉及机器学习（machine learning, ML）和深度学习（deep learning, DL）。在靶点的发现和验证[31]、药物的发现和设计[32]以及临床前药物研究[33]等方面，ML以及DL均被应用于分析不同格式的各种数据特征。当一个药物候选进入临床试验阶段[34]后，DL在临床试验设计、监督和分析临床四期数据方面发挥了至关重要的作用[33]。已获批的药物对企业[35]和市场经济有着重要影响，DL也在这些领域发挥了作用。因此，在本文中，我们全面介绍了AI在制药科学中的大部分应用领域。重点关注AI如何促进靶点发现和药物发现（图1），并思考如何进一步加速该领域的发展。
 
-![3f55e837d01fad50f2f0ab877ff019a3](img/3f55e837d01fad50f2f0ab877ff019a3.png)
+![3f55e837d01fad50f2f0ab877ff019a3](../img/3f55e837d01fad50f2f0ab877ff019a3.png)
 
 **图1** AI在制药科学中的应用概述。ADMET：吸收、分布、代谢、排泄和毒性。
 
