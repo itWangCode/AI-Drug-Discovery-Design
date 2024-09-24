@@ -7,6 +7,7 @@ dependencies:
   - pip
   - jupyterlab>=3
   - jsonschema>=4.3.0
+  - teachopencadd=2023.05.1
   - nglview>=3
   - ipywidgets<=7.75
   - jupyter_client<=7.4.9

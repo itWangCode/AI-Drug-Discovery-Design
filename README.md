@@ -667,7 +667,12 @@ conda activate AI-drug-design
 
 - https://www.jetbrains.com/pycharm/
 
+我有时候特别怕Macos系统同学
 
+Mac系统 PyCharm.app”已损坏，无法打开。 您应该将它移到废纸篓。
+mac系统下载好了pycharm后提示，Mac系统 PyCharm.app”已损坏，无法打开。 您应该将它移到废纸篓。
+我们在terminal窗口输入一下命令后就可以正常打开软件了。前提你的pycharm在你的应用程序文件夹内。
+sudo xattr -r -d com.apple.quarantine /Applications/PyCharm.app
 
 ####  Pycharm 2024.2.1 最新激活码，破解版安装教程（亲测至2099年~）
 
