@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4236999",
+      "name": "核心控件",
+      "font_class": "hexinkongjian",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "9918609",
+      "name": "抗体",
+      "font_class": "kangti",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "12470795",
+      "name": "预测",
+      "font_class": "yuce",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "18455976",
+      "name": "目标",
+      "font_class": "mubiao",
+      "unicode": "e723",
+      "unicode_decimal": 59171
+    },
+    {
+      "icon_id": "30020566",
+      "name": "分子病理",
+      "font_class": "fenzibingli",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    }
+  ]
+}
