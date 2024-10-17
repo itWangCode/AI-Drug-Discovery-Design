@@ -1,0 +1,3 @@
+activity_id,assay_chembl_id,assay_description,assay_type,molecule_chembl_id,relation,units,IC50,target_chembl_id,target_organism,type
+22400925,CHEMBL4669553,Inhibition of ODC (unknown origin) expressed in Escherichia coli after 30 mins in presence of [1-14C] L-ornithine by liquid scintillation counter analysis,B,CHEMBL359965,=,nM,11.0,CHEMBL4680040,Homo sapiens,IC50
+22400926,CHEMBL4669553,Inhibition of ODC (unknown origin) expressed in Escherichia coli after 30 mins in presence of [1-14C] L-ornithine by liquid scintillation counter analysis,B,CHEMBL830,=,nM,252000.0,CHEMBL4680040,Homo sapiens,IC50
