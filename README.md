@@ -4,6 +4,8 @@ AI-Drive drug Discovery & design
 Artificial Intelligence-assisted Drug Discovery and Design
 ----------------------------------------------------------
 
+## 项目文件夹在 list中，如果你直接想要看流程，只选点击选择03_Al Drug Discovery & Design，01是集成，03是药物发发现与设计的流程，后面是扩展的内容
+
 Let me briefly introduce the field I am responsible for - artificial intelligence-assisted drug discovery and design. In order to better help everyone understand this complex cutting-edge technology, I will explain it in Chinese, especially to support those who may have language barriers. Although this content is usually more suitable for presentation in English, I have chosen to provide a more intuitive learning path in Chinese to ensure everyone can better grasp the core concepts and quickly get started.
 
 Artificial intelligence-assisted drug discovery and design is a method that utilizes artificial intelligence (AI) technology to accelerate and optimize the drug development process. Traditional drug research and development cycles are long, costly, and have low success rates, while AI can significantly enhance the efficiency and accuracy of drug design through big data processing, model prediction, and automated analysis.
