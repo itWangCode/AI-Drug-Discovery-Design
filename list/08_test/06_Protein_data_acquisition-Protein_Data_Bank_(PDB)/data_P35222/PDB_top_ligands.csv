@@ -1,0 +1,3 @@
+@structureId,@chemicalID,chemicalName,@molecularWeight,formula,InChI,InChIKey,smiles
+7AFW,R9Q,R9Q,264.19409999999993,,,,CN1CC(Oc2ccccc2C1=O)c3cccc(c3)C#N
+8Z10,PRO,PRO,106.059,,,,C1CC(NC1)C(=O)O

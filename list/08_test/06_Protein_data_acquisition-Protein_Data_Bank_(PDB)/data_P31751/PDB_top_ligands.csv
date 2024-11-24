@@ -1,0 +1,7 @@
+@structureId,@chemicalID,chemicalName,@molecularWeight,formula,InChI,InChIKey,smiles
+8Q61,K06,K06,414.3071999999999,,,,CCCN1c2cc(c(nc2OCC1=O)c3ccc(cc3)C4(CC(C4)(C)O)N)c5ccccc5
+8Q61,GOL,GOL,84.0303,,,,C(C(CO)O)O
+8Q61,PO4,PO4,94.971361,,,,[O-]P(=O)([O-])[O-]
+8Q61,MES,MES,182.13350000000003,,,,C1COCC[NH+]1CCS(=O)(=O)[O-]
+9C1W,XOO,XOO,540.6144199999997,,,,c1ccc(cc1)c2ccc3c(n2)n(c(n3)c4cccnc4N)c5ccc(cc5)CNCCc6ccc(c(c6)O)C=O
+9C1W,EDO,EDO,62.06783999999999,,,,C(CO)O
